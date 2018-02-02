@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "578452117577",
+    "firebase_url": "https://cocotrip-fa7fd.firebaseio.com",
+    "project_id": "cocotrip-fa7fd",
+    "storage_bucket": "cocotrip-fa7fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578452117577:android:21cc8e74550236f1",
+        "android_client_info": {
+          "package_name": "com.zohan.cocotrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578452117577-grcobou742g0c72sj6i9sa986jl20qkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArMNCN57hKpmflfdMtjLdSb4jWdlMlb8o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
