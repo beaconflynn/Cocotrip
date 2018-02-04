@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_news"
+        icon="@drawable/ic_news"
+        title="News" />
+    <tab
+        id="@+id/tab_nearme"
+        icon="@drawable/ic_nearme"
+        title="Nearme" />
+    <tab
+        id="@+id/tab_maps"
+        icon="@drawable/ic_maps"
+        title="Maps" />
+    <tab
+        id="@+id/tab_country"
+        icon="@drawable/ic_country"
+        title="Country" />
+    <tab
+        id="@+id/tab_me"
+        icon="@drawable/ic_me"
+        title="Me" />
+</tabs>

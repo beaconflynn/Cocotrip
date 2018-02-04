@@ -120,7 +120,7 @@ public class LoginActivity extends AppCompatActivity{
 
                     /* Add */
                     Toast.makeText(LoginActivity.this, "Authentication Success", Toast.LENGTH_SHORT).show();
-                    Intent i = new Intent(LoginActivity.this, UserInfoActivity.class);
+                    Intent i = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(i);
                     finish();
                 }else {
@@ -180,7 +180,7 @@ public class LoginActivity extends AppCompatActivity{
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
                     //Toast.makeText(LoginActivity.this, "Facebook Authentication Success", Toast.LENGTH_SHORT).show();
-                    Intent i = new Intent(LoginActivity.this, UserInfoActivity.class);
+                    Intent i = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(i);
                     finish();
                 }else{
@@ -201,7 +201,7 @@ public class LoginActivity extends AppCompatActivity{
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
                             Toast.makeText(LoginActivity.this, "Google Authentication Success", Toast.LENGTH_SHORT).show();
-                            Intent i = new Intent(LoginActivity.this, UserInfoActivity.class);
+                            Intent i = new Intent(LoginActivity.this, MainActivity.class);
                             startActivity(i);
                             finish();
                         } else {
